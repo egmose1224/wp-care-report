@@ -1,0 +1,145 @@
+.wp-care-report {
+	max-width: 1120px;
+}
+
+.wp-care-report__summary,
+.wp-care-report__panel,
+.wp-care-report__section {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	margin: 20px 0;
+	padding: 20px;
+}
+
+.wp-care-report__summary {
+	align-items: center;
+	display: flex;
+	gap: 24px;
+	justify-content: space-between;
+}
+
+.wp-care-report__eyebrow {
+	color: #646970;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0;
+	margin: 0 0 4px;
+	text-transform: uppercase;
+}
+
+.wp-care-report__score {
+	min-width: 180px;
+	text-align: right;
+}
+
+.wp-care-report__score-number {
+	color: #1d2327;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.wp-care-report__score-total {
+	color: #646970;
+	font-size: 20px;
+}
+
+.wp-care-report__score strong {
+	display: block;
+	margin-top: 6px;
+}
+
+.wp-care-report__panel form,
+.wp-care-report__actions {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.wp-care-report__panel label {
+	font-weight: 600;
+}
+
+.wp-care-report__checks {
+	display: grid;
+	gap: 12px;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.wp-care-report__care-plan {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.wp-care-report__care-plan-group {
+	border-left: 4px solid #2271b1;
+	padding-left: 14px;
+}
+
+.wp-care-report__care-plan-group h3 {
+	margin-top: 0;
+}
+
+.wp-care-report__care-plan-group li {
+	margin-bottom: 12px;
+}
+
+.wp-care-report__check {
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 16px;
+}
+
+.wp-care-report__check h3 {
+	margin: 10px 0 8px;
+}
+
+.wp-care-report__badge {
+	border-radius: 999px;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1;
+	padding: 5px 8px;
+}
+
+.wp-care-report__badge--good {
+	background: #edfaef;
+	color: #008a20;
+}
+
+.wp-care-report__badge--recommended {
+	background: #fcf9e8;
+	color: #996800;
+}
+
+.wp-care-report__badge--critical {
+	background: #fcf0f1;
+	color: #b32d2e;
+}
+
+.wp-care-report__markdown {
+	height: 1px;
+	left: -9999px;
+	position: absolute;
+	width: 1px;
+}
+
+.wp-care-report__copy-status {
+	color: #008a20;
+	font-weight: 600;
+}
+
+@media (max-width: 782px) {
+	.wp-care-report__summary {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.wp-care-report__score {
+		text-align: left;
+	}
+}

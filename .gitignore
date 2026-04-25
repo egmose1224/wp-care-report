@@ -1,0 +1,15 @@
+/agents.md
+/.demo-wp/
+/.demo-wp-db/
+/.dist/
+/dist/
+/.playwright-mcp/
+/wp-care-report-*.png
+*.zip
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+node_modules/
+vendor/
